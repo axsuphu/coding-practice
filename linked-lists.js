@@ -59,6 +59,7 @@ const linkedListValues = (head) => {
   return values;
 };
 
+//have this function outside so it doesnt create multiple arrays
 const fillValues = (head, values) => {
   if (head === null) return;
   values.push(head.val);
